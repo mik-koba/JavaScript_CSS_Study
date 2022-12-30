@@ -9,8 +9,19 @@
 </head>
 
 <body>
-    <span>こんにちは！ 日本！</span>
-    <img src="image-1.jpg" alt="">
+  <!-- インライン要素：横配置、高さ横幅指定不可 -->
+  <span>Hello World!</span>
+  <!-- ブロック要素：縦配置、高さ横幅指定可能 -->
+  <div>Hello World!</div>
+  <!-- displayを指定すると、ブロックをインライン、インラインをブロックのように使うこともできる -->
+  <style>
+    div{
+      display: inline;
+      width: 300px;
+      height: 400px;
+      background-color: red;
+    }
+  </style>
 </body>
 
 </html>
